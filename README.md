@@ -7,3 +7,6 @@ SELECT Name FROM Products;
 
 2. Select the names and the prices of all the products in the store ? </br>
 SELECT Name, Price FROM Products;
+
+3. Select the name of the products with a price less than or equal to 200 ? </br>
+SELECT Name FROM Products WHERE Price <= 200;
