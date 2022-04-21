@@ -10,3 +10,12 @@ SELECT Name, Price FROM Products;
 
 3. Select the name of the products with a price less than or equal to 200 ? </br>
 SELECT Name FROM Products WHERE Price <= 200;
+
+4. Select all the products with a price between 60 and 120 ? </br>
+ /* With AND */ </br>
+   SELECT * FROM Products </br>
+   WHERE Price >= 60 AND Price <= 120;  </br> 
+ 
+ /* With BETWEEN */ </br> 
+   SELECT * FROM Products </br> 
+   WHERE Price BETWEEN 60 AND 120; </br>
